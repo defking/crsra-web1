@@ -1,0 +1,80 @@
+/* Main */
+
+header>nav.navbar-default {
+  background-color: #455A64;
+  border: none;
+  border-radius: 0;
+}
+
+header>nav.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+header>nav.navbar-default .navbar-collapse {
+  border: none;
+}
+
+header>nav.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
+header>nav.navbar-default .navbar-toggle,
+header>nav.navbar-default .navbar-toggle:hover,
+header>nav.navbar-default .navbar-toggle:focus {
+  background: none;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #CFD8DC;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+
+header>h1, header>h3 {
+  text-align: center;
+}
+
+
+section {
+  min-height: 700px;
+  margin-bottom: 50px
+}
+
+section div {
+  padding: 5px 10px;
+  background-color: #CFD8DC;
+}
+
+section header {
+
+}
+
+a.backToTop {
+  display: block;
+  padding: 5px 0;
+  margin: 10px 0;
+  font-size: .8em;
+}
+
+/* Responsive */
+
+/********** Small devices only SM **********/
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    background-color: #607D8B;
+  }
+
+
+}
+/********** Small devices only SM **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Medium devices only MD **********/
+@media (min-width: 992px) {
+
+}
