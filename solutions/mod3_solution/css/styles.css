@@ -6,7 +6,9 @@ header>nav.navbar-default {
   border-radius: 0;
 }
 
-header>nav.navbar-default .navbar-brand {
+header>nav.navbar-default .navbar-brand,
+header>nav.navbar-default .navbar-brand:hover {
+  font-family: 'Fjalla One', sans-serif;
   color: #fff;
 }
 
@@ -26,7 +28,11 @@ header>nav.navbar-default .navbar-toggle:focus {
   border: none;
 }
 
+.navbar-default .navbar-nav>li {
+  text-align: center;
+}
 .navbar-default .navbar-nav>li>a {
+  font-weight: bold;
   color: #CFD8DC;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -35,9 +41,13 @@ header>nav.navbar-default .navbar-toggle:focus {
 
 
 header>h1, header>h3 {
+  font-family: 'Fjalla One', sans-serif;
   text-align: center;
 }
 
+header>h1 {
+  margin: 50px 0 30px
+}
 
 section {
   min-height: 700px;
